@@ -30,11 +30,11 @@ const styles = StyleSheet.create({
         fontFamily: "Times-Roman",
     },
     textResponse: {
-
+        margin: "auto 20px auto 10px",
         fontSize: "14px",
         textAlign: "left",
         fontFamily: "Times-Roman",
-
+        flexWrap: "wrap",
 
     },
     questions: {
@@ -54,7 +54,7 @@ const styles = StyleSheet.create({
 
     },
     table: {
-        margin: "20px auto 20px auto",
+        margin: "10px auto 10px auto",
         display: "table",
         width: "auto",
     },
@@ -238,9 +238,11 @@ const styles = StyleSheet.create({
     },
     displayOfResponses: {
         flexDirection: "row",
-        marginLeft: "20px",
-        marginBottom: "10px",
-        marginTop: "15px",
+        // marginLeft: "20px",
+        // marginBottom: "10px",
+        // marginTop: "15px",
+        margin:"15px 50px 0px 20px",
+        
     },
     image: {
         height: "40px",
